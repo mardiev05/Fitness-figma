@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@400;500;600;700;800&family=Corinthia:wght@700&family=Josefin+Sans:wght@200;300;400;500;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 5fr 4fr;
+}
+
+header .header__link {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    align-items: center;
+}
+
+.header__link .header__links {
+    font-family: 'Alegreya', serif;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 30px;
+    color: #837171;
+}
+
+.header__link .header__links--active {
+    border-radius: 10px;
+    border-bottom: 2px solid red;
+    color: #111;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.header__link .header__links:hover {
+    border-radius: 10px;
+    border-bottom: 2px solid red;
+    color: #111;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+header .header__bar {
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    background-image: url(images/header-girl.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    max-height: 900px;
+    padding-top: 30px;
+    position: relative;
+}
+
+.header__bar .header__bar--icon {
+    position: absolute;
+    top: 30px;
+    right: 33%;
+}
+
+.header__bar .fas.fa-bars {
+    width: 42px;
+    height: 40px;
+    font-size: 30px;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    transition: .4s ease-in;
+    -webkit-transition: .4s ease-in;
+    -moz-transition: .4s ease-in;
+    -ms-transition: .4s ease-in;
+    -o-transition: .4s ease-in;
+}
+
+.header__bar .fas.fa-bars:hover {
+    background: #111;
+    color: #fff;
+}
+
+.header__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 150px;
+}
