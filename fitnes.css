@@ -261,7 +261,8 @@
     }
     
     .benefits .benefits__name,
-    .improve__name {
+    .improve__name,
+    .instructors__name {
         font-weight: 600;
         font-size: 21px;
         line-height: 40px;
@@ -269,7 +270,8 @@
     }
     
     .benefits .benefits__title,
-    .improve__title {
+    .improve__title,
+    .instructors__title {
         font-weight: bold;
         font-size: 41px;
         line-height: 130%;
@@ -284,6 +286,33 @@
         line-height: 160%;
         color: #504747;
         margin-bottom: 50px;
+    }
+    /* =====instructors section===== */
+    
+    .instructors {
+        margin-top: 170px;
+    }
+    
+    .instructors__row {
+        display: flex;
+        justify-content: space-around;
+        align-items: baseline;
+    }
+    
+    .instructors__card--name {
+        font-weight: bold;
+        font-size: 22px;
+        line-height: 150%;
+        text-align: center;
+        margin-top: 25px;
+    }
+    
+    .instructors__card--text {
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 160%;
+        text-align: center;
+        color: #504747;
     }
     
     @media screen and (max-width:1050px) {
