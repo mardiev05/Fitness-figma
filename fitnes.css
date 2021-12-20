@@ -248,7 +248,8 @@
         }
         
         .benefits .benefits__img,
-        .improve__img {
+        .improve__img,
+        .testimonial__img {
             max-width: 520px;
             max-height: 575px;
             border-radius: 3px;
@@ -260,7 +261,8 @@
         
         .benefits .benefits__name,
         .improve__name,
-        .instructors__name {
+        .instructors__name,
+        .testimonial__name {
             font-weight: 600;
             font-size: 21px;
             line-height: 40px;
@@ -269,7 +271,8 @@
         
         .benefits .benefits__title,
         .improve__title,
-        .instructors__title {
+        .instructors__title,
+        .testimonial__title {
             font-weight: bold;
             font-size: 41px;
             line-height: 130%;
@@ -311,6 +314,61 @@
             line-height: 160%;
             text-align: center;
             color: #504747;
+        }
+        /* =====testimonial===== */
+        
+        .testimonial {
+            display: grid;
+            grid-template-columns: 2fr 3fr;
+            grid-gap: 70px;
+            margin-top: 100px;
+        }
+        
+        .testimonial__content {
+            position: relative;
+        }
+        
+        .testimonial__card {
+            box-shadow: 3px 4px 15px #ccc;
+            padding: 50px 60px;
+            background: #fff;
+            border-radius: 10px 40px 10px 10px;
+            max-width: 520px;
+            max-height: 325px;
+            overflow: scroll;
+            /* transform: translateX(-110px); */
+            position: absolute;
+            top: 215px;
+            left: -110px;
+        }
+        
+        .testimonial__card--text {
+            font-style: italic;
+            font-weight: normal;
+            font-size: 17px;
+            line-height: 30px;
+            color: #504747;
+        }
+        
+        .testemonial__card--name {
+            font-weight: bold;
+            font-size: 19px;
+            line-height: 31px;
+            color: #3A1212;
+            margin-top: 25px;
+        }
+        
+        .testemonial__card--address {
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 23px;
+            color: #504747;
+        }
+        
+        .testimonial__img {
+            width: 525px;
+            max-height: 610px;
+            border-radius: 3px;
         }
         
         @media screen and (max-width:1200px) {
