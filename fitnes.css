@@ -272,7 +272,8 @@
         .benefits .benefits__title,
         .improve__title,
         .instructors__title,
-        .testimonial__title {
+        .testimonial__title,
+        .form__title {
             font-weight: bold;
             font-size: 41px;
             line-height: 130%;
@@ -281,7 +282,8 @@
         }
         
         .benefits .benefits__text,
-        .improve__text {
+        .improve__text,
+        .form__text {
             font-weight: normal;
             font-size: 19px;
             line-height: 160%;
@@ -367,8 +369,69 @@
         
         .testimonial__img {
             width: 525px;
-            max-height: 610px;
+            max-height: 635px;
             border-radius: 3px;
+        }
+        /* =====form section===== */
+        
+        .form {
+            margin-top: 200px;
+            height: 100vh;
+        }
+        
+        .form__subscribe {
+            position: relative;
+            width: 70%;
+            margin: auto;
+        }
+        
+        input.form__input {
+            width: 80%;
+            height: 60px;
+            border-radius: 25px;
+            padding: 10px 20px 10px 40px;
+            font-weight: normal;
+            font-size: 20px;
+            line-height: 160%;
+            outline-color: red;
+            box-shadow: 3px 4px 15px #ccc;
+            border: none;
+            color: #ff0000;
+            transition: .8s ease-in;
+        }
+        
+        input.form__input::placeholder {
+            font-weight: normal;
+            font-size: 20px;
+            line-height: 160%;
+        }
+        
+        input.form__input:focus {
+            transform: scale(1.1);
+        }
+        
+        .form__btn {
+            padding: 10px;
+            width: 20%;
+            height: 50px;
+            border-radius: 25px;
+            border: none;
+            font-size: 17px;
+            background: red;
+            color: #fff;
+            outline-color: rgb(14, 171, 219);
+            position: absolute;
+            top: 5px;
+            right: 11%;
+            transition: .4s ease-in;
+            -webkit-transition: .4s ease-in;
+            -moz-transition: .4s ease-in;
+            -ms-transition: .4s ease-in;
+            -o-transition: .2s ease;
+        }
+        
+        .form__btn:hover {
+            background: rgb(14, 171, 219);
         }
         
         @media screen and (max-width:1200px) {
