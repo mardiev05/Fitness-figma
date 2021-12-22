@@ -233,11 +233,17 @@
         /* =====benefits and improve section */
         
         .benefits {
+            /* display: flex;
+            justify-content: space-between; */
             display: grid;
             grid-template-columns: 2fr 3fr;
             align-items: center;
             grid-gap: 100px;
         }
+        /* .benefits__content {
+            width: 40%;
+        }
+         */
         
         .improve {
             display: flex;
