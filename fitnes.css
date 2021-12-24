@@ -466,6 +466,7 @@
             line-height: 22px;
             color: #3A1212;
             margin-left: 10px;
+            cursor: pointer;
         }
         
         .footer__card--main .footer__card--text {
@@ -488,6 +489,7 @@
             line-height: 30px;
             color: #3A1212;
             margin-bottom: 30px;
+            cursor: pointer;
         }
         
         .footer__card .footer__links {
@@ -496,6 +498,16 @@
             line-height: 30px;
             color: #504747;
             margin-bottom: 15px;
+            transition: .4s ease;
+            -webkit-transition: .4s ease;
+            -moz-transition: .4s ease;
+            -ms-transition: .4s ease;
+            -o-transition: .4s ease;
+        }
+        
+        .footer__card .footer__links:hover {
+            color: red;
+            border-bottom: 1px solid #ff0000;
         }
         
         .footer__copyright {
@@ -506,6 +518,11 @@
             /* or 14px */
             color: #A69B9B;
         }
+        
+        .footer__icons i {
+            margin-right: 10px;
+        }
+        /* --------------------------------------------------------------------------------------------------------------------------------- */
         
         @media screen and (max-width:1200px) {
             .container {
