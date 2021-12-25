@@ -507,7 +507,22 @@
         
         .footer__card .footer__links:hover {
             color: red;
-            border-bottom: 1px solid #ff0000;
+        }
+        
+        .footer__icons .fa-facebook-f {
+            color: blue;
+        }
+        
+        .footer__icons .fa-twitter {
+            color: rgb(82, 177, 206);
+        }
+        
+        .footer__icons .fa-google-plus-g {
+            color: rgb(241, 41, 41);
+        }
+        
+        .footer__icons .fa-linkedin {
+            color: rgb(80, 168, 226);
         }
         
         .footer__copyright {
