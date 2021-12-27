@@ -172,7 +172,7 @@
 
             <!-- form section -->
 
-            <form class="form text--center">
+            <form class="form text--center" name="contact" method="POST" data-netlify="true">
                 <div class="form__content">
                     <h3 class="form__title">Subscribe Our Fitness Articles</h3>
                     <p class="form__text">
@@ -181,8 +181,8 @@
                     </p>
                 </div>
                 <div class="form__subscribe">
-                    <input class="form__input" type="text" placeholder="Type Your Email Address" required />
-                    <button class="form__btn">Subscribe</button>
+                    <input class="form__input" type="email" name="email" placeholder="Type Your Email Address" required />
+                    <button class="form__btn" type="submit">Subscribe</button>
                 </div>
             </form>
         </div>
